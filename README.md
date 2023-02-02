@@ -1,6 +1,6 @@
 # genshell
 > Generate reverse shells from the terminal. 
-<img src="genshell.png" width=400px>
+<img src="genshell.png" width=600px>
 
 ## Usage: 
 ``` 
