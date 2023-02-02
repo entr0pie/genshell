@@ -11,13 +11,13 @@ genshell --shell zsh -e bash_i 192.168.1.10:1024
 
 ## Instalation (ELF)
 ```
-sudo curl https://github.com/genshell/genshell.conf > /etc/genshell.conf
-wget https://github.com/genshell/genshell && sudo cp genshell /bin/genshell
+sudo curl https://raw.githubusercontent.com/entr0pie/genshell/main/genshell.conf > /etc/genshell.conf
+wget https://raw.githubusercontent.com/entr0pie/genshell/main/genshell && sudo cp genshell /bin/genshell
 ```
 
 ## Compiling from source
 ``` 
-git clone https://github.com/entr0pie/genshell
+git clone https://github.com/entr0pie/genshell.git
 cd genshell
 go build genshell.go
 sudo cp genshell.conf /etc/genshell.conf && sudo cp genshell /bin/genshell
@@ -25,5 +25,6 @@ sudo cp genshell.conf /etc/genshell.conf && sudo cp genshell /bin/genshell
 
 ## TODO's 
 
-[ ] Add classe to the executers (like python3.short.single_quotes)
+
+[ ] Add classe to the executers (like python3.short.singlequotes)
 [ ] Add more executers
