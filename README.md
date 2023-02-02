@@ -25,6 +25,5 @@ sudo cp genshell.conf /etc/genshell.conf && sudo cp genshell /bin/genshell
 
 ## TODO's 
 
-
-[ ] Add classe to the executers (like python3.short.singlequotes)
-[ ] Add more executers
+- [ ] Add classe to the executers (like python3.short.singlequotes)
+- [ ] Add more executers
